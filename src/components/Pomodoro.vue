@@ -1,6 +1,6 @@
 <template>
 <v-card>
-    <v-tabs v-model="timerType" grow>
+    <v-tabs v-model="timerType">
         <v-tab v-for="tab in tabsTitles" :key="tab">{{ tab }}</v-tab>
         <v-tabs-items v-model="timerType">
             <v-tab-item>
